@@ -13,6 +13,7 @@ h1{
 p{
     max-width:200px;
     color: white;
+    text-align: center;
 }
 div{
     background-color: black;
