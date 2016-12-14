@@ -1,13 +1,19 @@
 h1{
     display: inline;
     font-family: 'Anton', sans-serif;
-    color: #0EC3FF;
+    color: white;
     font-size: 50px;
     
 }
 .movie{
     display: inline;
     font-family: 'Anton', sans-serif;
+    color: #0EC3FF;
+}
+p{
+    max-width:200px;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+div{
+    background-color: black;
 }
