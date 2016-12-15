@@ -4,6 +4,7 @@ h1{
     color: white;
     font-size: 75px;
     
+    
 }
 .movie{
     display: inline;
@@ -14,6 +15,9 @@ p{
     max-width:200px;
     color: white;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
     
     
     
