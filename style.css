@@ -3,6 +3,7 @@ h1{
     font-family: 'Anton', sans-serif;
     color: white;
     font-size: 75px;
+
     
     
 }
@@ -11,12 +12,13 @@ h1{
     font-family: 'Anton', sans-serif;
     color: #0EC3FF;
 }
-p{
-    max-width:200px;
+.sum{
+    max-width:500px;
     color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 200px
     
     
     
@@ -34,5 +36,5 @@ div{
 #peter{
     float: right;
     position: relative;
-    bottom: 10px;
+    top: 100px;
 }
