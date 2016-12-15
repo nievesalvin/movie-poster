@@ -31,3 +31,8 @@ div{
     top:100px;
     
 }
+#peter{
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
