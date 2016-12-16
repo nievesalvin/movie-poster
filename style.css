@@ -36,8 +36,9 @@ div{
 #title{
     text-align: center;
 }
-#h2{
+h2{
     display: inline;
     font-family: 'Anton', sans-serif;
-     color: #0EC3FF;
+    color: #0EC3FF;
+
 }
