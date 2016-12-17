@@ -1,53 +1,63 @@
-.whitecollar{
+.whitecollar {
     display: inline;
     font-family: 'Anton', sans-serif;
     color: white;
     font-size: 75px;
 }
-.movie{
+
+.movie {
     display: inline;
     font-family: 'Anton', sans-serif;
     color: #0EC3FF;
     font-size: 75px;
 }
-.sum{
-    width:500px;
+
+.sum {
+    width: 500px;
     color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    font-size:20px;
+    font-size: 20px;
 }
-div{
+
+div {
     background-color: black;
 }
-#neal{
+
+#neal {
+    border:1px solid #0EC3FF;
+    padding: 3px;
     float: left;
     position: relative;
-    top:100px;
-    
+    top: 100px;
 }
-#peter{
+
+#peter {
+    border:1px solid #0EC3FF;
+    padding: 3px;
     float: right;
     position: relative;
     top: 100px;
 }
-#title{
+
+#title {
     text-align: center;
 }
-#critics{
+
+#critics {
     display: inline;
     font-family: 'Anton', sans-serif;
     color: #0EC3FF;
     font-size: 40px;
     text-align: center;
 }
-.critics2{
-    width:450px;
+
+.critics2 {
+    width: 450px;
     color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
 }
