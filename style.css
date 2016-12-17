@@ -54,7 +54,21 @@ div {
     text-align: center;
 }
 
-.critics2 {
+#NYT{
+    width: 450px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Huff{
+    width: 450px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#NYP{
     width: 450px;
     color: white;
     text-align: center;
