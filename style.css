@@ -82,3 +82,10 @@ div {
     margin-left: auto;
     margin-right: auto;
 }
+#fivestar{
+    position: relative;
+    top:700px;
+    /*clear:left;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
