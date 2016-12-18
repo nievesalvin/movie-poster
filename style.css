@@ -85,27 +85,25 @@ div {
     margin-left: auto;
     margin-right: auto;
 }
-#fivestar{
-    position: relative;
-    top:800px;
-    /*clear:left;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
+li{
+    font-size: 17px;
 }
-#washington{
-    float:left;
-    position: relative;
-    top:45px;
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    display: block;
 }
-h2{
-    display: inline-block;
-    font-family: 'Anton', sans-serif;
-    color: #0EC3FF;
-    font-size: 40px;
+#signup{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-align: center;
+    font-size:20px;
 }
-#reviews
-/*display: inline;*/
-/*    font-family: 'Anton', sans-serif;*/
-/*    color: #0EC3FF;*/
-/*    font-size: 40px;*/
-/*    text-align: center;*/
+.submit{
+    background-color: #0EC3FF;
+    display: block;
+    font-size: 18px
+}
