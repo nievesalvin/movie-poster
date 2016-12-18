@@ -1,3 +1,6 @@
+p{
+    font-size: 15px
+}
 .whitecollar {
     display: inline;
     font-family: 'Anton', sans-serif;
@@ -84,8 +87,25 @@ div {
 }
 #fivestar{
     position: relative;
-    top:700px;
+    top:800px;
     /*clear:left;*/
     /*margin-left: auto;*/
     /*margin-right: auto;*/
 }
+#washington{
+    float:left;
+    position: relative;
+    top:45px;
+}
+h2{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    color: #0EC3FF;
+    font-size: 40px;
+}
+#reviews
+/*display: inline;*/
+/*    font-family: 'Anton', sans-serif;*/
+/*    color: #0EC3FF;*/
+/*    font-size: 40px;*/
+/*    text-align: center;*/
