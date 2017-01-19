@@ -7,6 +7,7 @@ p {
     font-family: 'Anton', sans-serif;
     color: white;
     font-size: 75px;
+    text-shadow: 2px 2px black;
 }
 
 .movie {
@@ -14,6 +15,7 @@ p {
     font-family: 'Anton', sans-serif;
     color: #0EC3FF;
     font-size: 75px;
+    text-shadow: 2px 2px black;
 }
 
 .sum {
@@ -26,9 +28,7 @@ p {
     font-size: 20px;
 }
 
-div {
-    background-color: black;
-}
+
 
 #neal {
     border: 1px solid #0EC3FF;
@@ -38,12 +38,42 @@ div {
     top: 100px;
 }
 
+#neal {
+    background: gray;
+    animation: neal 2s ease-in-out 0s 1 normal;
+    -webkit-animation: neal 2s ease-in-out 0s 1 normal;
+}
+
+@-webkit-keyframes neal {
+    from {
+        top: 500px;
+    }
+    to {
+        top: 100px;
+    }
+}
+
 #peter {
     border: 1px solid #0EC3FF;
     padding: 3px;
     float: right;
     position: relative;
     top: 100px;
+}
+
+#peter {
+    background: gray;
+    animation: peter 2s ease-in-out 0s 1 normal;
+    -webkit-animation: peter 2s ease-in-out 0s 1 normal;
+}
+
+@-webkit-keyframes peter {
+    from {
+        top: 500px;
+    }
+    to {
+        top: 100px;
+    }
 }
 
 #title {
@@ -114,4 +144,8 @@ input {
     background-color: #0EC3FF;
     display: block;
     font-size: 18px
+}
+
+#everything {
+    background: linear-gradient(to right, #0EC3FF, white);
 }
