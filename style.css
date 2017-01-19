@@ -30,7 +30,9 @@ p {
 }
 
 .sum:hover {
-    transform: rotateY(180deg);
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(10deg); /* Standard syntax */
 }
 
 #neal {
@@ -119,9 +121,9 @@ p {
 #NYT {
     color: white;
     -webkit-animation-name: NYT; 
-    -webkit-animation-duration: 2s; 
+    -webkit-animation-duration: 3s; 
     animation-name: NYT;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 
@@ -145,9 +147,9 @@ p {
 #Huff {
     color: white;
     -webkit-animation-name: Huff; 
-    -webkit-animation-duration: 2s; 
+    -webkit-animation-duration: 3s; 
     animation-name: Huff;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 
@@ -171,9 +173,9 @@ p {
 #NYP {
     color: white;
     -webkit-animation-name: NYP; 
-    -webkit-animation-duration: 2s; 
+    -webkit-animation-duration: 3s; 
     animation-name: NYP;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 
@@ -197,9 +199,9 @@ p {
 #HSTAT {
     color: white;
     -webkit-animation-name: HSTAT; 
-    -webkit-animation-duration: 2s; 
+    -webkit-animation-duration: 3s; 
     animation-name: HSTAT;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 
