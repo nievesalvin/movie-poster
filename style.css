@@ -2,6 +2,7 @@ p {
     font-size: 16px;
 }
 
+
 .whitecollar {
     display: inline;
     font-family: 'Anton', sans-serif;
@@ -28,7 +29,9 @@ p {
     font-size: 20px;
 }
 
-
+.sum:hover {
+    transform: rotateY(180deg);
+}
 
 #neal {
     border: 1px solid #0EC3FF;
@@ -87,6 +90,24 @@ p {
     font-size: 40px;
     text-align: center;
 }
+#critics {
+    background-color: #0EC3FF;
+    -webkit-animation-name: critics; 
+    -webkit-animation-duration: 4s; 
+    animation-name: critics;
+    animation-duration: 2s;
+}
+
+
+@-webkit-keyframes critics {
+    from {color: white;}
+    to {color: #0EC3FF;}
+}
+
+@keyframes critics {
+    from {color: white;}
+    to {color: #0EC3FF;}
+}
 
 #NYT {
     width: 450px;
@@ -94,6 +115,24 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+#NYT {
+    color: white;
+    -webkit-animation-name: NYT; 
+    -webkit-animation-duration: 2s; 
+    animation-name: NYT;
+    animation-duration: 2s;
+}
+
+
+@-webkit-keyframes NYT {
+    from {color: #0EC3FF;}
+    to {color: white;}
+}
+
+@keyframes NYT {
+    from {color: #0EC3FF;}
+    to {color: white;}
 }
 
 #Huff {
@@ -103,6 +142,24 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+#Huff {
+    color: white;
+    -webkit-animation-name: Huff; 
+    -webkit-animation-duration: 2s; 
+    animation-name: Huff;
+    animation-duration: 2s;
+}
+
+
+@-webkit-keyframes Huff {
+    from {color: #0EC3FF;}
+    to {color: white;}
+}
+
+@keyframes Huff {
+    from {color: #0EC3FF;}
+    to {color: white;}
+}
 
 #NYP {
     width: 450px;
@@ -110,6 +167,24 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+#NYP {
+    color: white;
+    -webkit-animation-name: NYP; 
+    -webkit-animation-duration: 2s; 
+    animation-name: NYP;
+    animation-duration: 2s;
+}
+
+
+@-webkit-keyframes NYP {
+    from {color: #0EC3FF;}
+    to {color: white;}
+}
+
+@keyframes NYP {
+    from {color: #0EC3FF;}
+    to {color: white;}
 }
 
 #HSTAT {
@@ -119,7 +194,24 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+#HSTAT {
+    color: white;
+    -webkit-animation-name: HSTAT; 
+    -webkit-animation-duration: 2s; 
+    animation-name: HSTAT;
+    animation-duration: 2s;
+}
 
+
+@-webkit-keyframes HSTAT {
+    from {color: #0EC3FF;}
+    to {color: white;}
+}
+
+@keyframes HSTAT {
+    from {color: #0EC3FF;}
+    to {color: white;}
+}
 li {
     font-size: 18px;
 }
@@ -143,7 +235,13 @@ input {
 .submit {
     background-color: #0EC3FF;
     display: block;
-    font-size: 18px
+    font-size: 18px;
+    transition: width 2s, height 4s;
+}
+
+.submit:hover {
+    width: 400px;
+    height: 50px;
 }
 
 #everything {
