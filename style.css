@@ -1,83 +1,76 @@
 p {
-    font-size: 16px;
+    font-size: 16px; /*makes the font size 16px*/
 }
 
 
 .whitecollar {
-    display: inline;
-    font-family: 'Anton', sans-serif;
-    color: white;
-    font-size: 75px;
-    text-shadow: 2px 2px black;
+    display: inline;/*sets it so that something can be next to it*/
+    font-family: 'Anton', sans-serif;/*sets the font of text and the back-up font*/
+    color: white;/*sets the color of the text*/
+    font-size: 75px;/*sets the size of the font*/
+    text-shadow: 2px 2px black;/*sets shadow to 2px and black*/
 }
 
 .movie {
-    display: inline;
-    font-family: 'Anton', sans-serif;
-    color: #0EC3FF;
-    font-size: 75px;
-    text-shadow: 2px 2px black;
+    display: inline;/*sets it so that something can be next to it*/
+    font-family: 'Anton', sans-serif;/*sets the font of text and the back-up font*/
+    color: #0EC3FF;/*sets the color of the text*/
+    font-size: 75px;/*sets the size of the font*/
+    text-shadow: 2px 2px black;/*sets shadow to 2px and black*/
 }
 
 .sum {
-    width: 500px;
-    color: white;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    font-size: 20px;
+    width: 500px;/*sets the width to 500px*/
+    color: white;/*sets font color white*/
+    text-align: center;/*aligns the text*/
+    margin-left: auto;/*creates equal space to the left*/
+    margin-right: auto;/*creates equal space to the right*/
+    margin-top: 200px;/*makes the space above the paragrpah 200px*/
+    font-size: 20px;/*makes the font size 20px*/
 }
 
 .sum:hover {
-    -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari */
-    transform: rotate(10deg); /* Standard syntax */
+    -ms-transform: rotate(10deg); /*rotates the text when you hover it*/
+    -webkit-transform: rotate(10deg); /*rotates the text when you hover it*/
+    transform: rotate(10deg);/*rotates the text when you hover it*/
 }
 
 #neal {
-    border: 1px solid #0EC3FF;
-    padding: 3px;
-    float: left;
-    position: relative;
-    top: 100px;
+    border: 1px solid #0EC3FF;/*creates a border around image*/
+    padding: 3px;/*creates 3 px of space between imagine and border*/
+    float: left;/*makes the image stay on the right side*/
+    position: relative;/*keeps the position relative to its orignial position*/
+    top: 100px;/*picture is 100px from the top*/
 }
 
 #neal {
-    background: gray;
-    animation: neal 2s ease-in-out 0s 1 normal;
-    -webkit-animation: neal 2s ease-in-out 0s 1 normal;
+    background: gray;/*sets the background to gray*/
+    animation: neal 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
+    -webkit-animation: neal 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
 }
 
-@-webkit-keyframes neal {
-    from {     top: 500px;
-    }
-    to {
-        top: 100px;
-    }
+@-webkit-keyframes neal {/*moves imagine from 500px from the top to 100px from the top*/
+    from {top: 500px;}
+    to {top: 100px;}
 }
 
 #peter {
-    border: 1px solid #0EC3FF;
-    padding: 3px;
-    float: right;
-    position: relative;
-    top: 100px;
+    border: 2px solid #0EC3FF;/*creates a border around image*/
+    padding: 3px;/*creates 3 px of space between imagine and border*/
+    float: right;/*makes the image stay on the right side*/
+    position: relative;/*keeps the position relative to its orignial position*/
+    top: 100px;/*picture is 100px from the top*/
 }
 
 #peter {
-    background: gray;
-    animation: peter 2s ease-in-out 0s 1 normal;
-    -webkit-animation: peter 2s ease-in-out 0s 1 normal;
+    background: gray;/*sets the background color to gray*/
+    animation: peter 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
+    -webkit-animation: peter 2s ease-in-out 0s 1 normal;/*animation name,duration,timing-function,delay,iteration-count, direction*/
 }
 
-@-webkit-keyframes peter {
-    from {
-        top: 500px;
-    }
-    to {
-        top: 100px;
-    }
+@-webkit-keyframes peter {/*moves imagine from 500px from the top to 100px from the top*/
+    from {top: 500px;}
+    to {top: 100px;}
 }
 
 #title {
@@ -85,29 +78,29 @@ p {
 }
 
 #critics {
-    display: inline;
-    font-family: 'Anton', sans-serif;
-    color: #0EC3FF;
-    font-size: 40px;
+    display: inline;/*sets it so that something can be next to it*/
+    font-family: 'Anton', sans-serif; /*sets the font of text and the back-up font*/
+    color: #0EC3FF;/*sets the color of the text*/
+    font-size: 40px;/*sets the size of the font*/
     text-align: center;/*centers the text*/
 }
 #critics {
-    background-color: #0EC3FF;
-    -webkit-animation-name: critics; 
-    -webkit-animation-duration: 4s; 
-    animation-name: critics;
-    animation-duration: 2s;
+    background-color: #0EC3FF;/*sets the color the background*/
+    -webkit-animation-name: critics;/*name of animation*/
+    -webkit-animation-duration: 4s;/*how long the animation last*/ 
+    animation-name: critics;/*name of animation*/
+    animation-duration: 2s;/*how long the animation last*/
 }
 
 
 @-webkit-keyframes critics {
-    from {color: white;}
-    to {color: #0EC3FF;}
+    from {color: white;}/*throughout the animation will start at white*/
+    to {color: #0EC3FF;}/*at the end of the animation the text will be blue*/
 }
 
 @keyframes critics {
-    from {color: white;}
-    to {color: #0EC3FF;}
+    from {color: white;}/*throughout the animation will start at white*/
+    to {color: #0EC3FF;}/*at the end of the animation the text will be blue*/
 }
 
 #NYT {
